@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Result from './result';
+const secretNumToFind = Math.floor(Math.random() * 10) + 1
+
 
 function App() {
+
+  const [ term, setTerm ] = useState("");
+
+  function handleChange(e){
+    setTerm(e.target.value)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='container'>
+        <div className='head'>
+          <label htmlFor='term'>Guess a number between 1 to 10</label>
+        </div>
+        <input
+          id='term'
+          type='text'
+          name='term'
+          value={term}
+          onChange={handleChange}
+        />
+        <Result num = {secretNumToFind} currentterm = {term}/>
+      </div>
   );
 }
 
