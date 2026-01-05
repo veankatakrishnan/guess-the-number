@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/veankatakrishnan/guess-the-number/static/css/main.6cd4462a.css",
+    "main.js": "/veankatakrishnan/guess-the-number/static/js/main.587e989d.js",
+    "static/js/453.e6ab21dc.chunk.js": "/veankatakrishnan/guess-the-number/static/js/453.e6ab21dc.chunk.js",
+    "index.html": "/veankatakrishnan/guess-the-number/index.html",
+    "main.6cd4462a.css.map": "/veankatakrishnan/guess-the-number/static/css/main.6cd4462a.css.map",
+    "main.587e989d.js.map": "/veankatakrishnan/guess-the-number/static/js/main.587e989d.js.map",
+    "453.e6ab21dc.chunk.js.map": "/veankatakrishnan/guess-the-number/static/js/453.e6ab21dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cd4462a.css",
+    "static/js/main.587e989d.js"
+  ]
+}
